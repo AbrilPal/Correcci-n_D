@@ -1,0 +1,36 @@
+// Árbol sintáctico
+digraph {
+	<Lab_A.Nodo.Node object at 0x7fa1a808dfa0> [label="\""]
+	<Lab_A.Nodo.Node object at 0x7fa1a808df10> [label="$"]
+	<Lab_A.Nodo.Node object at 0x7fa1a83219d0> [label=";"]
+	<Lab_A.Nodo.Node object at 0x7fa1a8321c40> [label="$"]
+	<Lab_A.Nodo.Node object at 0x7fa1a8321ca0> [label=";"]
+	<Lab_A.Nodo.Node object at 0x7fa1a8321d00> [label="."]
+	<Lab_A.Nodo.Node object at 0x7fa1a8321d00> -> <Lab_A.Nodo.Node object at 0x7fa1a8321c40>
+	<Lab_A.Nodo.Node object at 0x7fa1a8321d00> -> <Lab_A.Nodo.Node object at 0x7fa1a8321ca0>
+	<Lab_A.Nodo.Node object at 0x7fa1a8321d60> [label="$"]
+	<Lab_A.Nodo.Node object at 0x7fa1a8321dc0> [label=";"]
+	<Lab_A.Nodo.Node object at 0x7fa1a8321e20> [label="|"]
+	<Lab_A.Nodo.Node object at 0x7fa1a8321e20> -> <Lab_A.Nodo.Node object at 0x7fa1a8321d60>
+	<Lab_A.Nodo.Node object at 0x7fa1a8321e20> -> <Lab_A.Nodo.Node object at 0x7fa1a8321dc0>
+	<Lab_A.Nodo.Node object at 0x7fa1a8321e80> [label="+"]
+	<Lab_A.Nodo.Node object at 0x7fa1a8321e80> -> <Lab_A.Nodo.Node object at 0x7fa1a8321e20>
+	<Lab_A.Nodo.Node object at 0x7fa1a8321ee0> [label="."]
+	<Lab_A.Nodo.Node object at 0x7fa1a8321ee0> -> <Lab_A.Nodo.Node object at 0x7fa1a8321d00>
+	<Lab_A.Nodo.Node object at 0x7fa1a8321ee0> -> <Lab_A.Nodo.Node object at 0x7fa1a8321e80>
+	<Lab_A.Nodo.Node object at 0x7fa1a8321f40> [label="*"]
+	<Lab_A.Nodo.Node object at 0x7fa1a8321f40> -> <Lab_A.Nodo.Node object at 0x7fa1a8321ee0>
+	<Lab_A.Nodo.Node object at 0x7fa1a8321fa0> [label="."]
+	<Lab_A.Nodo.Node object at 0x7fa1a8321fa0> -> <Lab_A.Nodo.Node object at 0x7fa1a83219d0>
+	<Lab_A.Nodo.Node object at 0x7fa1a8321fa0> -> <Lab_A.Nodo.Node object at 0x7fa1a8321f40>
+	<Lab_A.Nodo.Node object at 0x7fa1a8330040> [label="*"]
+	<Lab_A.Nodo.Node object at 0x7fa1a8330040> -> <Lab_A.Nodo.Node object at 0x7fa1a8321fa0>
+	<Lab_A.Nodo.Node object at 0x7fa1a83300a0> [label="."]
+	<Lab_A.Nodo.Node object at 0x7fa1a83300a0> -> <Lab_A.Nodo.Node object at 0x7fa1a808df10>
+	<Lab_A.Nodo.Node object at 0x7fa1a83300a0> -> <Lab_A.Nodo.Node object at 0x7fa1a8330040>
+	<Lab_A.Nodo.Node object at 0x7fa1a8330100> [label="*"]
+	<Lab_A.Nodo.Node object at 0x7fa1a8330100> -> <Lab_A.Nodo.Node object at 0x7fa1a83300a0>
+	<Lab_A.Nodo.Node object at 0x7fa1a8330160> [label="."]
+	<Lab_A.Nodo.Node object at 0x7fa1a8330160> -> <Lab_A.Nodo.Node object at 0x7fa1a808dfa0>
+	<Lab_A.Nodo.Node object at 0x7fa1a8330160> -> <Lab_A.Nodo.Node object at 0x7fa1a8330100>
+}
